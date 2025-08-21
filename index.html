@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北京淞菲科技有限公司</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#E53E3E',
+                        dark: '#1E293B',
+                        light: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .text-shadow-lg {
+                text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+            }
+            .transition-transform {
+                transition-property: transform;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 300ms;
+            }
+            .hover-lift {
+                @apply hover:-translate-y-1 transition-all duration-300;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-50 text-dark antialiased">
+    <!-- 导航栏 -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <img src="image/logo.png" alt="北京淞菲科技" class="w-10 h-10 rounded-full">
+                    <span class="text-lg font-semibold text-dark hidden sm:block">北京淞菲科技</span>
+                </div>
+                
+                <!-- 桌面导航 -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-dark hover:text-primary transition-colors font-medium">首页</a>
+                    <a href="#about" class="text-dark hover:text-primary transition-colors font-medium">关于我们</a>
+                    <a href="#principles" class="text-dark hover:text-primary transition-colors font-medium">集团宗旨</a>
+                    <a href="#advantages" class="text-dark hover:text-primary transition-colors font-medium">我们的优势</a>
+                    <a href="#services" class="text-dark hover:text-primary transition-colors font-medium">我们的服务</a>
+                    <a href="#contact" class="text-dark hover:text-primary transition-colors font-medium">联系我们</a>
+                </nav>
+                
+                <!-- 移动端菜单按钮 -->
+                <button id="menuBtn" class="md:hidden text-dark focus:outline-none">
+                    <i class="fa fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- 移动端导航菜单 -->
+        <div id="mobileMenu" class="md:hidden hidden bg-white border-t">
+            <div class="container mx-auto px-4 py-3 space-y-3">
+                <a href="#home" class="block text-dark hover:text-primary transition-colors py-2">首页</a>
+                <a href="#about" class="block text-dark hover:text-primary transition-colors py-2">关于我们</a>
+                <a href="#principles" class="block text-dark hover:text-primary transition-colors py-2">集团宗旨</a>
+                <a href="#advantages" class="block text-dark hover:text-primary transition-colors py-2">我们的优势</a>
+                <a href="#services" class="block text-dark hover:text-primary transition-colors py-2">我们的服务</a>
+                <a href="#contact" class="block text-dark hover:text-primary transition-colors py-2">联系我们</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="relative pt-24 md:pt-0 min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('image/gaolou.jpg?rk3s=1fb89129&x-expires=1756344649&x-signature=fMYeV3JCTL%2Fb5x411RPYwQwlESE%3D');">
+        <div class="absolute inset-0 bg-dark/40"></div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+<!--            <div class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-white mx-auto mb-6 shadow-lg flex items-center justify-center">-->
+<!--                <span class="text-primary font-bold text-3xl md:text-4xl">SF</span>-->
+<!--            </div>-->
+            <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold text-white mb-4 text-shadow-lg leading-tight">
+                北京淞菲科技有限公司
+            </h1>
+            <p class="text-[clamp(1.1rem,3vw,1.5rem)] text-white/90 mb-8 max-w-2xl mx-auto text-shadow">
+                品信凝雾淞 精诚沁芳菲
+            </p>
+<!--            <div class="max-w-3xl mx-auto bg-white/90 backdrop-blur-sm rounded-lg p-6 md:p-8 shadow-xl">-->
+<!--                <p class="text-dark/80 leading-relaxed">-->
+<!--                    北京淞菲科技有限公司成立于2018年，注册资金500万元。公司以科技创新引领企业发展，遵循诚信为本，客户至上的原则。公司涉及水利电力、石油天然气、通用工业、过程控制、传播等领域的技术开发和服务，受到客户广泛关注和真心认可。-->
+<!--                </p>-->
+<!--            </div>-->
+        </div>
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#about" class="text-white/80 hover:text-white transition-colors">
+                <i class="fa fa-angle-down text-2xl"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="py-20 bg-gradient-to-r from-indigo-50 to-blue-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">关于我们</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="max-w-3xl mx-auto bg-gray-50 rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow">
+                <p class="text-dark/80 leading-relaxed mb-6">
+                    北京淞菲科技有限公司成立于2018年，是一家专注于技术创新与服务的高科技企业。公司注册资金500万元，始终坚持以科技创新引领企业发展，遵循诚信为本、客户至上的经营原则。
+                </p>
+                <p class="text-dark/80 leading-relaxed">
+                    我们的业务范围涵盖水利电力、石油天然气、通用工业、过程控制及传播等多个领域，通过提供专业的技术开发和服务，赢得了客户的广泛关注和真心认可。多年来，我们不断提升自身技术实力和服务质量，致力于为客户创造更大价值。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 集团宗旨 -->
+    <section id="principles" class="py-20 bg-gradient-to-r from-blue-100 to-indigo-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">集团宗旨 <span class="text-primary">OUR PRINCIPLE</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="max-w-2xl mx-auto">
+                <div class="bg-white rounded-xl p-8 shadow-md text-center hover-lift">
+                    <i class="fa fa-heart text-4xl text-secondary mb-6"></i>
+                    <h3 class="text-2xl font-semibold mb-4 text-dark">客户至上，服务一流</h3>
+                    <p class="text-dark/70">
+                        我们始终将客户需求放在首位，以专业的技术、高效的响应和优质的服务，为客户提供全方位的支持，致力于成为行业内服务标杆。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 我们的优势 -->
+    <section id="advantages" class="py-20 bg-gradient-to-r from-indigo-50 to-blue-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">我们的优势 <span class="text-primary">WHY CHOOSE US</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-primary font-bold">1</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2 text-dark">设备现货库存充足</h3>
+                                <p class="text-dark/70">为客户解决燃眉之急，确保项目顺利进行，减少等待时间，提高工作效率。</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-primary font-bold">2</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2 text-dark">专业技术团队</h3>
+                                <p class="text-dark/70">为客户提供一对一的技术改造方案，量身定制最适合的解决方案，确保技术适用性和先进性。</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mr-4 mt-1">
+                                <span class="text-primary font-bold">3</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold mb-2 text-dark">产品质量保障</h3>
+                                <p class="text-dark/70">提供高品质产品，同时配备完善的后期跟踪服务，确保客户使用无忧，长期受益。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 我们的服务 -->
+    <section id="services" class="py-20 bg-gradient-to-r from-blue-100 to-indigo-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">我们的服务 <span class="text-primary">OUR SERVICES</span></h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- 服务一 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow hover-lift">
+                    <div class="p-6 border-b">
+                        <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                            <i class="fa fa-tint text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-dark">提供的服务一</h3>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-semibold text-dark mb-2">水力:</h4>
+                        <p class="text-dark/70 mb-4">提供全方位服务，设备的运行维护，维修整改</p>
+                        
+                        <h4 class="font-semibold text-dark mb-2">电力:</h4>
+                        <p class="text-dark/70">对客户设备问题或不符合现场的设计给出整改方案，节约成本</p>
+                    </div>
+                </div>
+                
+                <!-- 服务二 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow hover-lift">
+                    <div class="p-6 border-b">
+                        <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                            <i class="fa fa-bolt text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-dark">提供的服务二</h3>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-semibold text-dark mb-2">石油天然气:</h4>
+                        <p class="text-dark/70 mb-4">及时提供备品备件并安排人员现场维护维修，保证设备的正常运行</p>
+                        
+                        <h4 class="font-semibold text-dark mb-2">船舶:</h4>
+                        <p class="text-dark/70">有充足的备件存货，及时解决客户的硬性需求，配备专业技术团队保障相关服务</p>
+                    </div>
+                </div>
+                
+                <!-- 服务三 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow hover-lift">
+                    <div class="p-6 border-b">
+                        <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                            <i class="fa fa-cogs text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-dark">提供的服务三</h3>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-semibold text-dark mb-2">通用工业:</h4>
+                        <p class="text-dark/70 mb-4">工业领域的维护和相应方案提供，助力工业发展</p>
+                        
+                        <h4 class="font-semibold text-dark mb-2">过程控制:</h4>
+                        <p class="text-dark/70">对工业生产过程进行管理控制并提供相关方案</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="py-20 bg-gradient-to-r from-indigo-100 to-blue-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-4">联系我们</h2>
+                <div class="w-20 h-1 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto bg-gray-50 rounded-xl p-8 shadow-md">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6 text-dark">联系方式</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fa fa-phone text-primary mt-1 mr-4"></i>
+                                <div>
+                                    <p class="text-dark/60 text-sm">服务热线</p>
+                                    <p class="text-dark font-medium">010-68883118</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa fa-fax text-primary mt-1 mr-4"></i>
+                                <div>
+                                    <p class="text-dark/60 text-sm">传 真</p>
+                                    <p class="text-dark font-medium">010-68883118</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa fa-globe text-primary mt-1 mr-4"></i>
+                                <div>
+                                    <p class="text-dark/60 text-sm">公司官网</p>
+                                    <p class="text-dark font-medium">http://songfey.com</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa fa-envelope text-primary mt-1 mr-4"></i>
+                                <div>
+                                    <p class="text-dark/60 text-sm">邮 箱</p>
+                                    <p class="text-dark font-medium">bjsfkj010@163.com/wanghouwang@songfey.com</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa fa-map-marker text-primary mt-1 mr-4"></i>
+                                <div>
+                                    <p class="text-dark/60 text-sm">公司地址</p>
+                                    <p class="text-dark font-medium">北京市房山区长阳万兴路86号-A3791</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold mb-6 text-dark">扫码咨询</h3>
+                        <div class="flex flex-col items-center justify-center">
+                            <div class="bg-white p-4 rounded-lg shadow-md mb-4">
+                                <img src="image/songfkym.png" alt="扫码咨询" class="w-48 h-48 object-contain">
+                            </div>
+                            <p class="text-dark/70 text-center">扫描上方二维码，获取更多咨询服务</p>
+                            <p class="text-primary font-medium text-center mt-2">我们将尽快回复您的咨询</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+                            <img src="image/logo.png" alt="北京淞菲科技" class="w-10 h-10 rounded-full">
+                        </div>
+                        <span class="text-lg font-semibold">北京淞菲科技有限公司</span>
+                    </div>
+                    <p class="text-white/60 mt-2 text-sm">品信凝雾淞 精诚沁芳菲</p>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-white/60 text-sm">© 2021 北京淞菲科技有限公司 版权所有</p>
+                    <p class="text-white/60 text-sm mt-1">京ICP备2021008491号-1</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-primary/90">
+        <i class="fa fa-angle-up text-xl"></i>
+    </button>
+
+    <script>
+        // 移动端菜单切换
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const icon = menuBtn.querySelector('i');
+            if (mobileMenu.classList.contains('hidden')) {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            } else {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            }
+        });
+        
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                // 关闭移动端菜单
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    const icon = menuBtn.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // 滚动效果
+        const header = document.querySelector('header');
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            // 导航栏滚动效果
+            if (window.scrollY > 100) {
+                header.classList.add('py-2');
+                header.classList.remove('py-4');
+                header.classList.add('shadow');
+            } else {
+                header.classList.add('py-4');
+                header.classList.remove('py-2');
+                header.classList.remove('shadow');
+            }
+            
+            // 回到顶部按钮显示/隐藏
+            if (window.scrollY > 500) {
+                backToTop.classList.remove('opacity-0', 'invisible');
+                backToTop.classList.add('opacity-100', 'visible');
+            } else {
+                backToTop.classList.add('opacity-0', 'invisible');
+                backToTop.classList.remove('opacity-100', 'visible');
+            }
+        });
+        
+        // 回到顶部功能
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // 添加元素进入动画
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('section > div > div:not(.text-center)');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementPosition < windowHeight - 100) {
+                    element.classList.add('opacity-100', 'translate-y-0');
+                    element.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        };
+        
+        // 初始设置
+        document.querySelectorAll('section > div > div:not(.text-center)').forEach(el => {
+            el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+        });
+        
+        // 页面加载和滚动时触发动画
+        window.addEventListener('load', animateOnScroll);
+        window.addEventListener('scroll', animateOnScroll);
+    </script>
+</body>
+</html>
