@@ -31,7 +31,6 @@ pure-read-rules/
 ```
 
 - **index.json**：与扩展规则市场对接，包含 `version`、`updatedAt`、`categories`、`rules` 数组。
-- **promo.json**：可选，用于推广或测试等，扩展可按需加载。
 - **rules/{category}/{host}.json**：单条规则，`host` 与索引一致；文件名中 `.` 用 `-` 替代（如 `dev-to.json`）。
 
 详见 [docs/rule-schema.md](docs/rule-schema.md)。
