@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "科客",
+    "description": "科客网正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "keke289",
+    "pathPattern": "/news/",
+    "titleSelector": "h2",
+    "contentSelector": "section.article-bd",
+    "excludeSelectors": [
+      "div.article-annotation"
+    ]
+  }
+}

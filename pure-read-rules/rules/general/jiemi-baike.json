@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "解密百科",
+    "description": "解密百科 jiemi.baike 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "jiemi.baike",
+    "pathPattern": "/pa/detail",
+    "titleSelector": "h1.title",
+    "contentSelector": "div.jiemi-content"
+  }
+}

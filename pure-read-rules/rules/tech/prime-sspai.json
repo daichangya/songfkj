@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "少数派 Prime 故事",
+    "description": "少数派 Prime 故事正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "prime.sspai",
+    "pathPattern": "/prime/story/",
+    "titleSelector": "h1.prime__story__title",
+    "contentSelector": "article.prime__story__body"
+  }
+}

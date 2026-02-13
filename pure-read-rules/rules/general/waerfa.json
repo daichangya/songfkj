@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "数字生活家 Waerfa",
+    "description": "Waerfa 数字生活家正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "waerfa",
+    "titleSelector": "title",
+    "contentSelector": "div.s-single-article",
+    "excludeSelectors": [
+      "div.u-post-share-wrap"
+    ]
+  }
+}

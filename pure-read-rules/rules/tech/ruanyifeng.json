@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "阮一峰博客",
+    "description": "阮一峰博客正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "ruanyifeng",
+    "pathPattern": "/blog/",
+    "titleSelector": "h1#page-title",
+    "contentSelector": "div#main-content"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "网易新闻",
+    "description": "网易新闻 news.163 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.163",
+    "pathPattern": "/",
+    "titleSelector": "title",
+    "contentSelector": "div#endText",
+    "excludeSelectors": [
+      "div.ep-source"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "果壳文章",
+    "description": "果壳网文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "article.guokr",
+    "pathPattern": "/article/",
+    "titleSelector": "h1#articleTitle",
+    "contentSelector": "div#articleContent",
+    "excludeSelectors": [
+      "div.article-extend",
+      "p.copyright"
+    ]
+  }
+}

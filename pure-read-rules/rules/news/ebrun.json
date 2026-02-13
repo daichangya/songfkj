@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "亿邦动力",
+    "description": "亿邦动力正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "ebrun",
+    "pathPattern": "/",
+    "titleSelector": "h1",
+    "contentSelector": "div.cmsDiv",
+    "excludeSelectors": [
+      "p.ybfirst_go",
+      "div#corp"
+    ]
+  }
+}

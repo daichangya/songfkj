@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "WordPress",
+    "description": "WordPress默认主题正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "wordpress",
+    "titleSelector": ".entry-title, h1.post-title",
+    "contentSelector": ".entry-content, .post-content, .article-content",
+    "authorSelector": ".author.vcard, .entry-author",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".sharedaddy",
+      ".jp-relatedposts",
+      "#comments"
+    ]
+  }
+}

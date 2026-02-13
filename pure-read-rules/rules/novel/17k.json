@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "17K小说",
+    "description": "17K小说网正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "17k",
+    "titleSelector": ".readAreaBox h1",
+    "contentSelector": "#chapterContent, .p-content",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".chapter-vote"
+    ],
+    "nextSelector": "#btnNext, .NextPage a",
+    "prevSelector": "#btnPrev, .LastPage a"
+  }
+}

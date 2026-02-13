@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "马蜂窝攻略",
+    "description": "马蜂窝自由行攻略正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "gonglve.mafengwo",
+    "pathPattern": "/gonglve/ziyouxing/",
+    "titleSelector": "h1",
+    "contentSelector": "div._j_content",
+    "excludeSelectors": [
+      "section.travelnote",
+      "div.product-box",
+      "div.pro_list"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "驱动之家",
+    "description": "驱动之家 mydrivers 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "mydrivers",
+    "pathPattern": "/",
+    "titleSelector": "div#thread_subject",
+    "contentSelector": "div.news_info",
+    "excludeSelectors": [
+      "div.btnPrev",
+      "div.btnNext",
+      "div.postpage",
+      "div.adggg1",
+      "p.news_bq",
+      "p.jcuo1",
+      "div#weixin",
+      "table"
+    ]
+  }
+}

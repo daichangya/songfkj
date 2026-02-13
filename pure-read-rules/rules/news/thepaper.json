@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "澎湃新闻",
+    "description": "澎湃新闻正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "thepaper",
+    "titleSelector": "h1.news_title, .newsdetail_title",
+    "contentSelector": ".news_txt, .newsdetail_content",
+    "authorSelector": ".news_about p:first-child",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".news_interaction",
+      ".comment_wrap"
+    ]
+  }
+}

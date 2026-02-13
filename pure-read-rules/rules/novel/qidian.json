@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "起点读书",
+    "description": "起点中文网正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "qidian",
+    "titleSelector": ".j_chapterName, .text-head h3",
+    "contentSelector": ".j_readContent, .read-content",
+    "excludeSelectors": [
+      ".review-wrap",
+      ".admire-wrap",
+      "script",
+      "style"
+    ],
+    "nextSelector": "#j_chapterNext",
+    "prevSelector": "#j_chapterPrev"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "无弹窗小说",
+    "description": "无弹窗小说系列正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "wutanc",
+    "titleSelector": "h1",
+    "contentSelector": "#content, .content",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".ad",
+      ".readinline"
+    ],
+    "nextSelector": ".chapter_Ede a:last-child, .page_chapter a:last-child",
+    "prevSelector": ".chapter_Ede a:first-child, .page_chapter a:first-child"
+  }
+}

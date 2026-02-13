@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Cell",
+    "description": "Cell 期刊正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "cell",
+    "pathPattern": "/fulltext/",
+    "titleSelector": "h1.article-header__title",
+    "contentSelector": "div.article__sections"
+  }
+}

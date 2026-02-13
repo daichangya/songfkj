@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "竹白",
+    "description": "竹白 zhubai.love 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "zhubai.love",
+    "pathPattern": "/posts/",
+    "titleSelector": "h1.PostPage_title__2Rv2U",
+    "contentSelector": "div.PostPage_content__2vONy"
+  }
+}

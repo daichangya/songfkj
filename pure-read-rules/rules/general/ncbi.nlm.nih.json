@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "NCBI PMC",
+    "description": "NCBI PMC 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "ncbi.nlm.nih",
+    "pathPattern": "/pmc/articles/",
+    "titleSelector": "h1.content-title",
+    "contentSelector": "div.tsec.sec",
+    "excludeSelectors": [
+      "div.jig-ncbiinpagenav-goto-container",
+      "div.ts_bar.small"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "大公报",
+    "description": "大公报正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "takungpao",
+    "pathPattern": "/",
+    "titleSelector": "h1.tpk_con_tle",
+    "contentSelector": "div.tpk_text"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "网易订阅",
+    "description": "网易订阅 dy.163 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "dy.163",
+    "pathPattern": "/v2/article/detail/",
+    "titleSelector": "h2",
+    "contentSelector": "div#content"
+  }
+}

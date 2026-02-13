@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "丁香园",
+    "description": "丁香园 dxy.cn 文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "dxy",
+    "pathPattern": "/article/",
+    "titleSelector": "h1.title",
+    "contentSelector": "div#content",
+    "excludeSelectors": [
+      "div.x_detail_btm"
+    ]
+  }
+}

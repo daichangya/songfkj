@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "cnBeta",
+    "description": "cnBeta 文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "cnbeta",
+    "pathPattern": "/articles/",
+    "titleSelector": "header.title h1",
+    "contentSelector": "div.cnbeta-article-body",
+    "excludeSelectors": [
+      "div.clearfix",
+      "div.rating_box",
+      "div.article-relation",
+      "div.topic",
+      "div.tac",
+      "div.article-share-code",
+      "div.article-global",
+      "div.article-topic"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "大西洋月刊",
+    "description": "The Atlantic 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.theatlantic",
+    "pathPattern": "/",
+    "titleSelector": "h1.c-article-header__hed",
+    "contentSelector": "div.l-article__container",
+    "excludeSelectors": [
+      "address",
+      "figcaption.c-lead-media__credit",
+      "span.c-menu__section__icon",
+      "svg"
+    ]
+  }
+}

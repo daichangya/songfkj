@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "明点节点",
+    "description": "明点节点正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.mindynode",
+    "pathPattern": "/zh/links/",
+    "titleSelector": "div#parsed_title",
+    "contentSelector": "div#parsed_content",
+    "excludeSelectors": [
+      "div.reTopics",
+      "p.read-art-extra-bonus",
+      "div.editorSign"
+    ]
+  }
+}

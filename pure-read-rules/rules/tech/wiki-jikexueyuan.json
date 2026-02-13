@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "极客学院 Wiki",
+    "description": "极客学院 Wiki 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "wiki.jikexueyuan",
+    "pathPattern": "/project/",
+    "titleSelector": "title",
+    "contentSelector": "div.markdown-body",
+    "excludeSelectors": [
+      "h1",
+      "a[rel=nofollow]"
+    ]
+  }
+}

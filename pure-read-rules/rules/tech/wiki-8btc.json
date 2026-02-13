@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "8BTC Wiki",
+    "description": "8BTC 百科正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "wiki.8btc",
+    "pathPattern": "/wiki/",
+    "titleSelector": "div.page-title",
+    "contentSelector": "div.col-xs-12",
+    "excludeSelectors": [
+      "div.page-title"
+    ]
+  }
+}

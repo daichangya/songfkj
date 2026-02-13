@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "哔哩哔哩专栏",
+    "description": "哔哩哔哩专栏正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "bilibili",
+    "pathPattern": "/read/",
+    "titleSelector": "h1.title",
+    "contentSelector": "div.ql-editor"
+  }
+}

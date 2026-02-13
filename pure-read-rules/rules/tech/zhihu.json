@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "知乎问答",
+    "description": "知乎问答内容提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "zhihu",
+    "titleSelector": "h1.QuestionHeader-title",
+    "contentSelector": ".RichContent-inner, .Post-RichTextContainer",
+    "authorSelector": ".AuthorInfo-name a",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".RichContent-actions",
+      ".ContentItem-actions"
+    ]
+  }
+}

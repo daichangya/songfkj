@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "腾讯新闻",
+    "description": "腾讯新闻正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "qq",
+    "titleSelector": "h1.LEFT, .content-article h1",
+    "contentSelector": ".content-article, #Cnt-Main-Article-QQ, .ArticleContent",
+    "authorSelector": ".color-a-1, .article-source",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".rv-root-v2",
+      ".related-topic",
+      "#ArtCmtTail"
+    ]
+  }
+}

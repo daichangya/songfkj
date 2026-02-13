@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "TechRepublic 博客",
+    "description": "TechRepublic 博客正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "blog.techrepublic",
+    "pathPattern": "/blog/",
+    "titleSelector": "title",
+    "contentSelector": "div.content",
+    "excludeSelectors": [
+      "div.newsletter-shortcode",
+      "div.shortcode"
+    ]
+  }
+}

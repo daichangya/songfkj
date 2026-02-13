@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Substack",
+    "description": "Substack订阅通讯正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "substack",
+    "titleSelector": "h1.post-title",
+    "contentSelector": ".body.markup, .available-content .body",
+    "authorSelector": ".pencraft .profile-hover-card",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".subscription-widget-wrap",
+      ".comment-list"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "钛媒体",
+    "description": "钛媒体文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "tfcaijing",
+    "pathPattern": "/article/",
+    "titleSelector": "h2.details-title",
+    "contentSelector": "div.rich_media_content",
+    "authorSelector": "div#summary"
+  }
+}

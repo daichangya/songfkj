@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "一点资讯",
+    "description": "一点资讯正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "yidianzixun",
+    "pathPattern": "/article/",
+    "titleSelector": "h2",
+    "contentSelector": "div.content-bd",
+    "excludeSelectors": [
+      "div.postfix",
+      "p.yidian-wm-copyright-bottom"
+    ]
+  }
+}

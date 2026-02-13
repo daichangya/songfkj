@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "什么值得买资讯",
+    "description": "什么值得买资讯正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.smzdm",
+    "pathPattern": "/p/",
+    "titleSelector": "title",
+    "contentSelector": "div.news_content",
+    "excludeSelectors": [
+      "h1.item-name",
+      "span.embed-card"
+    ]
+  }
+}

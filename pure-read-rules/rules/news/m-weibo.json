@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "微博移动版",
+    "description": "微博移动版 m.weibo 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "m.weibo",
+    "titleSelector": "title",
+    "contentSelector": "div.weibo-text"
+  }
+}

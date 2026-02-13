@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "科学松鼠会",
+    "description": "科学松鼠会文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "songshuhui",
+    "pathPattern": "/archives/",
+    "titleSelector": "span.contenttitle",
+    "contentSelector": "div.entry",
+    "excludeSelectors": [
+      "div.bshare-custom",
+      "div.my-related-posts-box"
+    ]
+  }
+}

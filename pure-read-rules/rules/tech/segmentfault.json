@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "思否",
+    "description": "SegmentFault思否正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "segmentfault",
+    "titleSelector": "h1.h2",
+    "contentSelector": ".article-content, .article-stream__content",
+    "authorSelector": ".author .text-body",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".article-recommends",
+      ".comment-box"
+    ]
+  }
+}

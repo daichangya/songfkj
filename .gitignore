@@ -1,0 +1,107 @@
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+
+# 编辑器
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# 日志文件
+*.log
+logs/
+
+# 构建产物
+dist/
+build/
+node_modules/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 包管理器
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Git相关
+.git/
+*.patch
+
+# 媒体文件（如果不需要版本控制）
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico
+*.webp
+
+# 音频文件
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+# 字体文件
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# 文档预览缓存
+*.pdf
+
+# 开发服务器缓存
+.cache/
+.nuxt/
+.next/
+.vuepress/dist/
+
+# 测试覆盖率
+coverage/
+*.lcov
+
+# ESLint缓存
+.eslintcache
+
+# TypeScript编译输出
+*.tsbuildinfo
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# 其他可能的构建工具输出
+public/build/
+public/dist/
+assets/build/
+assets/dist/

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Teakki",
+    "description": "Teakki 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "teakki",
+    "pathPattern": "/p/",
+    "titleSelector": "h1.content-title",
+    "contentSelector": "div.content-content"
+  }
+}

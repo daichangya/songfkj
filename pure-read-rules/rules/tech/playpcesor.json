@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "电脑玩物",
+    "description": "电脑玩物 playpcesor 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "playpcesor",
+    "pathPattern": "/",
+    "titleSelector": "h3.entry-title",
+    "contentSelector": "div.entry-content"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "9to5Google",
+    "description": "9to5Google 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "9to5google",
+    "pathPattern": "/",
+    "titleSelector": "h1.post-title",
+    "contentSelector": "div.post-body",
+    "excludeSelectors": [
+      "div.the9ca7210"
+    ]
+  }
+}

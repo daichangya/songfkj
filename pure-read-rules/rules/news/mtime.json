@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "时光网",
+    "description": "时光网 Mtime 资讯正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "mtime",
+    "pathPattern": "/",
+    "titleSelector": "h2",
+    "contentSelector": "div#newsContent"
+  }
+}

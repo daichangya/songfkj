@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "简书",
+    "description": "简书正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "jianshu",
+    "titleSelector": "h1._1RuRku, article h1",
+    "contentSelector": "article .show-content, article .show-content-free",
+    "authorSelector": ".rEsl9f .name, ._3U4Smb .name a",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".note-meta-wrap",
+      ".comment-list"
+    ]
+  }
+}

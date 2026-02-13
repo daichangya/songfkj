@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "环球网",
+    "description": "环球网正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "huanqiu",
+    "pathPattern": "/",
+    "titleSelector": "h1",
+    "contentSelector": "div.la_con",
+    "excludeSelectors": [
+      "div.editorSign",
+      "div.reTopics"
+    ]
+  }
+}

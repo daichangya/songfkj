@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "52IM 文章",
+    "description": "52IM 即时通讯网文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "article.52im",
+    "pathPattern": "/article-",
+    "titleSelector": "h1.ph",
+    "contentSelector": "td#article_content"
+  }
+}

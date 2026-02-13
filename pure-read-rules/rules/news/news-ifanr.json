@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "name": "爱范儿新闻",
+    "description": "爱范儿新闻正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.ifanr",
+    "pathPattern": "/news/",
+    "titleSelector": "h1.c-single-normal__title",
+    "contentSelector": "article",
+    "excludeSelectors": [
+      "div.entry-header",
+      "div.entry-meta",
+      "a.entry-comment-number",
+      "div.article-header",
+      "div.article-jiong-banner",
+      "div.popup",
+      "div.article-sns-tool"
+    ]
+  }
+}

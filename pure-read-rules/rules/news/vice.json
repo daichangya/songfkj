@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "VICE 中国",
+    "description": "VICE 中国正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "vice",
+    "pathPattern": "/read/",
+    "titleSelector": "h3.article-title",
+    "contentSelector": "div.article-body",
+    "excludeSelectors": [
+      "div.contributor-list",
+      "span.site-signature-icon",
+      "div.social-share-btm",
+      "div.article-copyright"
+    ]
+  }
+}

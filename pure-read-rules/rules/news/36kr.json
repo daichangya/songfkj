@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "name": "36氪",
+    "description": "36氪文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "36kr",
+    "pathPattern": "/p/",
+    "titleSelector": "title",
+    "contentSelector": "div.articleDetailContent",
+    "authorSelector": "div.summary",
+    "excludeSelectors": [
+      "div.author-panel",
+      "section.article-footer-label",
+      "section.report-code-section",
+      "section.single-post-tags",
+      "div.share-nav"
+    ]
+  }
+}

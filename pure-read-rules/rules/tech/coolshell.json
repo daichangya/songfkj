@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "酷壳",
+    "description": "酷壳 CoolShell 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "coolshell",
+    "pathPattern": "/articles/",
+    "titleSelector": "h1.entry-title",
+    "contentSelector": "div.entry-content",
+    "excludeSelectors": [
+      "div.jiathis_style",
+      "div#wp_rp_first",
+      "div.post-ratings",
+      "footer.entry-footer"
+    ]
+  }
+}

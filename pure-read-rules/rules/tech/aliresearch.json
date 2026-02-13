@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "阿里研究院",
+    "description": "阿里研究院正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "aliresearch",
+    "pathPattern": "/blog/article/detail/id/",
+    "titleSelector": "h2",
+    "contentSelector": "section#contents"
+  }
+}

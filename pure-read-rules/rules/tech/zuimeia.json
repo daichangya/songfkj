@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "最美应用",
+    "description": "最美应用文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "zuimeia",
+    "pathPattern": "/app/",
+    "titleSelector": "span.sub-title",
+    "contentSelector": "div#article_content",
+    "authorSelector": "div.short-des"
+  }
+}

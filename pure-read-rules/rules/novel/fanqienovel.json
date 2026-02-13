@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "番茄小说",
+    "description": "番茄小说正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "fanqienovel",
+    "titleSelector": ".muye-reader-title h1",
+    "contentSelector": ".muye-reader-content",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".ad-wrapper"
+    ]
+  }
+}

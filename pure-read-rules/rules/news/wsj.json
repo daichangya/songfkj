@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "华尔街日报",
+    "description": "华尔街日报正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "wsj",
+    "pathPattern": "/articles/",
+    "titleSelector": "h1.wsj-article-headline",
+    "contentSelector": "div.wsj-snippet-body"
+  }
+}

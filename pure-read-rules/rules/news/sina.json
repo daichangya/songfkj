@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "name": "新浪新闻",
+    "description": "新浪新闻正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "sina",
+    "titleSelector": ".main-title, h1.title",
+    "contentSelector": "#artibody, .article-content, .article",
+    "authorSelector": ".show_author, .article-editor, .source",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".appendQr_wrap",
+      ".article-bottom",
+      ".comment",
+      "#ad_entry"
+    ]
+  }
+}

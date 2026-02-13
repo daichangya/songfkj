@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "伯乐在线博客",
+    "description": "伯乐在线 blog.jobbole 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "blog.jobbole",
+    "pathPattern": "/",
+    "titleSelector": "title",
+    "contentSelector": "div.entry",
+    "excludeSelectors": [
+      "div.copyright-area",
+      "blockquote.rewards",
+      "div.post-adds",
+      "div#author-bio"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "青芒杂志",
+    "description": "青芒杂志 qingmang.me 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "qingmang",
+    "pathPattern": "/magazines/",
+    "titleSelector": "h1",
+    "contentSelector": "article",
+    "excludeSelectors": [
+      "header"
+    ]
+  }
+}

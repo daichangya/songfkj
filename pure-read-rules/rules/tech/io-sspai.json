@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "少数派 iOS",
+    "description": "少数派 iOS 端文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "io.sspai",
+    "pathPattern": "/",
+    "titleSelector": "h1.title",
+    "contentSelector": "div#article-content",
+    "excludeSelectors": [
+      "span.ss-app-card",
+      "div.ss-left",
+      "div.ss-right"
+    ]
+  }
+}

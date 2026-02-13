@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "ReadWrite",
+    "description": "ReadWrite 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "readwrite",
+    "pathPattern": "/",
+    "titleSelector": "h1.entry-title",
+    "contentSelector": "div.entry-content",
+    "excludeSelectors": [
+      "div.clearfix",
+      "div.menu-social-media-container",
+      "div.popular-tags",
+      "div.related_posts",
+      "div.about-author"
+    ]
+  }
+}

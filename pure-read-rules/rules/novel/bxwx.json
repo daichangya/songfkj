@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "笔下文学",
+    "description": "笔下文学系列正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "bxwx",
+    "titleSelector": ".bookname h1",
+    "contentSelector": "#content",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".bottem"
+    ],
+    "nextSelector": "#pager_next, .next a",
+    "prevSelector": "#pager_prev, .prev a",
+    "tocSelector": "#pager_index, .index a"
+  }
+}

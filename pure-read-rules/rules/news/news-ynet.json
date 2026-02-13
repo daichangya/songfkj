@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "北青网",
+    "description": "北青网 news.ynet 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.ynet",
+    "pathPattern": "/",
+    "titleSelector": "title",
+    "contentSelector": "div#articleAll",
+    "excludeSelectors": [
+      "ul.pageBox",
+      "span.authors",
+      "a.scrollLeft",
+      "a.scrollRight"
+    ]
+  }
+}

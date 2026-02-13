@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "动点科技 Tech2IPO",
+    "description": "Tech2IPO 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "tech2ipo",
+    "pathPattern": "/",
+    "titleSelector": ".title h1",
+    "contentSelector": "div.content"
+  }
+}

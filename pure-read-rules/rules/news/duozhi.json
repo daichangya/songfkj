@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "多知网",
+    "description": "多知网正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "duozhi",
+    "pathPattern": "/",
+    "titleSelector": "h1.subject-title",
+    "contentSelector": "div.subject-content"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "name": "CSDN",
+    "description": "CSDN博客正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "csdn",
+    "titleSelector": "#articleContentId, h1.title-article",
+    "contentSelector": "#content_views, #article_content, .article_content",
+    "authorSelector": ".follow-nickName, .user-info a",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".csdn-side-toolbar",
+      ".recommend-box",
+      ".blog-tags-box",
+      ".template-box",
+      ".comment-box"
+    ]
+  }
+}

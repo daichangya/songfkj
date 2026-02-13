@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "纵横中文网",
+    "description": "纵横中文网正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "zongheng",
+    "titleSelector": ".title_txtbox",
+    "contentSelector": "#readerFt, .reader_box .content",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".reward_wrap"
+    ],
+    "nextSelector": ".chap_btn_next a",
+    "prevSelector": ".chap_btn_prev a"
+  }
+}

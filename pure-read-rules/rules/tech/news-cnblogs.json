@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "博客园资讯",
+    "description": "博客园资讯 news.cnblogs 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.cnblogs",
+    "pathPattern": "/n/",
+    "titleSelector": "div#news_title",
+    "contentSelector": "div#news_body"
+  }
+}

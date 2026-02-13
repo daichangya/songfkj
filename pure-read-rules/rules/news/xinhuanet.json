@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "新华网",
+    "description": "新华网正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "xinhuanet",
+    "pathPattern": "/",
+    "titleSelector": "div.h-title",
+    "contentSelector": "div#p-detail",
+    "excludeSelectors": [
+      "div.zan-wap",
+      "div.p-tags"
+    ]
+  }
+}

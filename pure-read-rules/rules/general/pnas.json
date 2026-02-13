@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "PNAS",
+    "description": "美国科学院院刊正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "pnas",
+    "pathPattern": "/content/",
+    "titleSelector": "h1.highwire-cite-title",
+    "contentSelector": "div.fulltext-view"
+  }
+}

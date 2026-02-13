@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Dev.to",
+    "description": "Dev.to技术社区正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "dev.to",
+    "titleSelector": "h1#article-show-title",
+    "contentSelector": "#article-body, .crayons-article__body",
+    "authorSelector": ".crayons-article__header .profile-preview-card",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".crayons-article__footer",
+      ".comment-trees"
+    ]
+  }
+}

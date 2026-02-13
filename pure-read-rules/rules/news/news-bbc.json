@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "BBC News",
+    "description": "BBC 新闻正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.bbc",
+    "pathPattern": "/news/",
+    "titleSelector": "h1.story-body__h1",
+    "contentSelector": "div.story-body__inner"
+  }
+}

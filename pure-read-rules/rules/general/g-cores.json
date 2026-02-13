@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "机核",
+    "description": "机核文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "g-cores",
+    "pathPattern": "/articles/",
+    "titleSelector": "h1.story_title",
+    "contentSelector": "div.story"
+  }
+}

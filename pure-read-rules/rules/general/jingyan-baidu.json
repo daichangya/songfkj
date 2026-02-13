@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "百度经验",
+    "description": "百度经验正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "jingyan.baidu",
+    "pathPattern": "/article/",
+    "titleSelector": "title",
+    "contentSelector": "div#format-exp",
+    "excludeSelectors": [
+      "span.exp-album-enter-mask",
+      "span.enter-step-btn",
+      "span.last-item-end",
+      "div.quote-item",
+      "div.list-icon"
+    ]
+  }
+}

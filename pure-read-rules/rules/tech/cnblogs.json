@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "博客园",
+    "description": "博客园正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "cnblogs",
+    "titleSelector": "#cb_post_title_url, .postTitle a",
+    "contentSelector": "#cnblogs_post_body, #post_detail .post",
+    "authorSelector": "#Header1_HeaderTitle, .author a",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".post-additions",
+      ".feedback_area_title"
+    ]
+  }
+}

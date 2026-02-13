@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "数据联盟",
+    "description": "数据联盟 dataunion 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "dataunion",
+    "pathPattern": "/",
+    "titleSelector": "h1.mscctitle",
+    "contentSelector": "div.content-text"
+  }
+}

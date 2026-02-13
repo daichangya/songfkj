@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Solidot",
+    "description": "Solidot 奇客网正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "solidot",
+    "pathPattern": "/story",
+    "titleSelector": "div.bg_htit",
+    "contentSelector": "div.p_mainnew"
+  }
+}

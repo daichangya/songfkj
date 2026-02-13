@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "法兰克福汇报",
+    "description": "法兰克福汇报正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "aktuell.faz",
+    "pathPattern": "/",
+    "titleSelector": "title",
+    "contentSelector": "div.atc-Text",
+    "excludeSelectors": [
+      "aside.atc-ContainerMore",
+      "div.o-Ratio_Content",
+      "div.ctn-PlaceholderContent",
+      "div.atc-ContainerInfo"
+    ]
+  }
+}

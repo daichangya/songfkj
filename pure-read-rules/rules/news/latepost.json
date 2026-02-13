@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "晚点 LatePost",
+    "description": "晚点 LatePost 文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "latepost",
+    "pathPattern": "/news/",
+    "titleSelector": "div.article-header-title",
+    "contentSelector": "div.article-body",
+    "authorSelector": "div.abstract-pic-left"
+  }
+}

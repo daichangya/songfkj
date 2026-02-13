@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Hedwig",
+    "description": "Hedwig 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "hedwig.pub",
+    "pathPattern": "/i/",
+    "titleSelector": "title",
+    "contentSelector": "article",
+    "excludeSelectors": [
+      "div.BlockViewer__FavButtonContainer-sc-9kvudc-1",
+      "svg"
+    ]
+  }
+}

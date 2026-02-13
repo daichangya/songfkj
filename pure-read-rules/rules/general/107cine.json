@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "name": "影视工业网",
+    "description": "影视工业网 107cine 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rules": [
+    {
+      "host": "107cine",
+      "pathPattern": "/stream/",
+      "titleSelector": "h2",
+      "contentSelector": "div.flow_content",
+      "excludeSelectors": [
+        "div.postfix"
+      ]
+    },
+    {
+      "host": "107cine",
+      "pathPattern": "/zhuanti/",
+      "titleSelector": "h1",
+      "contentSelector": "div.zhuanti",
+      "excludeSelectors": [
+        "div.z-top",
+        "div.datu"
+      ]
+    }
+  ]
+}

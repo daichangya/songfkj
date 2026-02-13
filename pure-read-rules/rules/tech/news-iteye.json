@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "ITeye 资讯",
+    "description": "ITeye 资讯正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.iteye",
+    "pathPattern": "/news/",
+    "titleSelector": "h3#h3-title",
+    "contentSelector": "div#news_content"
+  }
+}

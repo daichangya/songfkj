@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "哥伦比亚新闻评论",
+    "description": "CJR 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "cjr",
+    "pathPattern": "/",
+    "titleSelector": "title",
+    "contentSelector": "div#article-content",
+    "excludeSelectors": [
+      "div#mc_embed_signup",
+      "div#post-survey-box",
+      "small"
+    ]
+  }
+}

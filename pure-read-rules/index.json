@@ -1,0 +1,3444 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-02-11T12:00:00Z",
+  "categories": [
+    {
+      "id": "novel",
+      "name": "小说阅读",
+      "icon": "📖",
+      "count": 10
+    },
+    {
+      "id": "news",
+      "name": "新闻资讯",
+      "icon": "📰",
+      "count": 92
+    },
+    {
+      "id": "tech",
+      "name": "技术博客",
+      "icon": "💻",
+      "count": 88
+    },
+    {
+      "id": "general",
+      "name": "通用站点",
+      "icon": "🌐",
+      "count": 44
+    }
+  ],
+  "rules": [
+    {
+      "host": "69shu",
+      "name": "69书吧",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "69书吧系列（69shuba/69shux等）正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 320,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "toc",
+        "exclude"
+      ]
+    },
+    {
+      "host": "biquge",
+      "name": "笔趣阁",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "笔趣阁系列（biquge/xbiquge等）正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 580,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "toc",
+        "exclude"
+      ]
+    },
+    {
+      "host": "bxwx",
+      "name": "笔下文学",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "笔下文学系列正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 150,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "toc",
+        "exclude"
+      ]
+    },
+    {
+      "host": "qidian",
+      "name": "起点读书",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "起点中文网正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 450,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "exclude"
+      ]
+    },
+    {
+      "host": "zongheng",
+      "name": "纵横中文网",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "纵横中文网正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 120,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "exclude"
+      ]
+    },
+    {
+      "host": "17k",
+      "name": "17K小说",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "17K小说网正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 90,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "exclude"
+      ]
+    },
+    {
+      "host": "dingdian",
+      "name": "顶点小说",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "顶点小说正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 110,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "toc",
+        "exclude"
+      ]
+    },
+    {
+      "host": "wutanc",
+      "name": "无弹窗小说",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "无弹窗小说系列正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 75,
+      "selectors": [
+        "title",
+        "content",
+        "next",
+        "prev",
+        "exclude"
+      ]
+    },
+    {
+      "host": "fanqienovel",
+      "name": "番茄小说",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "番茄小说正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 200,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "qu.la",
+      "name": "趣啦小说",
+      "category": "novel",
+      "author": "Pure Read Team",
+      "description": "趣啦小说正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "sina",
+      "name": "新浪新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新浪新闻正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 260,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "163",
+      "name": "网易新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "网易新闻正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 240,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "qq",
+      "name": "腾讯新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "腾讯新闻正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 210,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "ifeng",
+      "name": "凤凰网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "凤凰网新闻正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 130,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "thepaper",
+      "name": "澎湃新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "澎湃新闻正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 175,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cnbeta",
+      "name": "cnBeta",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "cnBeta 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "36kr",
+      "name": "36氪",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "36氪文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "newsflashes.36kr",
+      "name": "36氪快讯",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "36氪快讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "qdaily",
+      "name": "好奇心日报",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "好奇心日报文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "m.qdaily",
+      "name": "好奇心日报移动版",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "好奇心日报移动版正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "pingwest",
+      "name": "品玩",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "品玩文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "wire.pingwest",
+      "name": "品玩快讯",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "品玩 wire 快讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.ifanr",
+      "name": "爱范儿新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "爱范儿新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "tfcaijing",
+      "name": "钛媒体",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "钛媒体文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "author"
+      ]
+    },
+    {
+      "host": "latepost",
+      "name": "晚点 LatePost",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "晚点 LatePost 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "author"
+      ]
+    },
+    {
+      "host": "infzm",
+      "name": "南方周末",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "南方周末 infzm 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "m.weibo",
+      "name": "微博移动版",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "微博移动版正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "chinabyte",
+      "name": "天极网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "天极网 chinabyte 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "vice",
+      "name": "VICE 中国",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "VICE 中国正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.smzdm",
+      "name": "什么值得买资讯",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "什么值得买资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "mydrivers",
+      "name": "驱动之家",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "驱动之家正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "ftchinese",
+      "name": "金融时报中文网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "金融时报中文网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "mtime",
+      "name": "时光网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "时光网资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "mittrchina",
+      "name": "MIT 科技评论",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "MIT 科技评论中文正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "sohu",
+      "name": "搜狐新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "搜狐新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "xinhuanet",
+      "name": "新华网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新华网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "money.jrj",
+      "name": "金融界理财",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "金融界理财正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.ynet",
+      "name": "北青网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "北青网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "qianlong",
+      "name": "千龙网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "千龙网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "duozhi",
+      "name": "多知网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "多知网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "app.myzaker",
+      "name": "ZAKER 应用端",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "ZAKER 应用端正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "m.kankanews",
+      "name": "看看新闻移动版",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "看看新闻移动版正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "kankanews",
+      "name": "看看新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "看看新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cbnweek",
+      "name": "第一财经周刊",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "第一财经周刊正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "user.guancha",
+      "name": "观察者网用户",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "观察者网用户正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "article.myzaker",
+      "name": "ZAKER 文章",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "ZAKER 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "people",
+      "name": "人民网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "人民网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "chinanews",
+      "name": "中国新闻网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "中国新闻网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "m.toutiaocdn",
+      "name": "今日头条移动",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "今日头条移动正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "toutiao",
+      "name": "今日头条",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "今日头条正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "cwzg",
+      "name": "财新网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "财新网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "yidianzixun",
+      "name": "一点资讯",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "一点资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.163",
+      "name": "网易新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "网易新闻 news.163 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "renjian.163",
+      "name": "网易人间",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "网易人间正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "dy.163",
+      "name": "网易订阅",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "网易订阅正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "newseed.pedaily",
+      "name": "投资界",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "投资界正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.newseed",
+      "name": "新芽",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新芽正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "m.qq",
+      "name": "腾讯新闻移动",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "腾讯新闻移动正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "view.inews.qq",
+      "name": "腾讯大家",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "腾讯大家正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "new.qq",
+      "name": "腾讯新闻 new.qq",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "腾讯新闻 new.qq 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.china",
+      "name": "中国网新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "中国网新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "huanqiu",
+      "name": "环球网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "环球网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "iheima",
+      "name": "i黑马",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "i黑马正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "keke289",
+      "name": "科客",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "科客网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "young.ifeng",
+      "name": "凤凰青年",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "凤凰青年正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.ifeng",
+      "name": "凤凰新闻",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "凤凰新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "tech.sina",
+      "name": "新浪科技",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新浪科技正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "finance.sina",
+      "name": "新浪财经",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新浪财经正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "sports.sina",
+      "name": "新浪体育",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新浪体育正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "collection.sina",
+      "name": "新浪收藏",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新浪收藏正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "blog.sina",
+      "name": "新浪博客",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "新浪博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.workercn",
+      "name": "中工网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "中工网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.gold678",
+      "name": "金投网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "金投网资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "stockstar",
+      "name": "证券之星",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "证券之星正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "takungpao",
+      "name": "大公报",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "大公报正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "view2.inews.qq",
+      "name": "腾讯大家今日话题",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "腾讯大家今日话题正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.mindynode",
+      "name": "明点节点",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "明点节点正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "199it",
+      "name": "199IT",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "199IT 互联网数据中心正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "chinaventure",
+      "name": "投中网",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "投中网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "voice.hupu",
+      "name": "虎扑深度",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "虎扑深度正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "ebrun",
+      "name": "亿邦动力",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "亿邦动力正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "aktuell.faz",
+      "name": "法兰克福汇报",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "法兰克福汇报正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cn.nytstyle",
+      "name": "纽约时报风格",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "纽约时报风格中文正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "sueddeutsche",
+      "name": "南德意志报",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "南德意志报正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.bbc",
+      "name": "BBC News",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "BBC 新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "simp.bbc",
+      "name": "BBC 中文",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "BBC 中文正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "wsj",
+      "name": "华尔街日报",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "华尔街日报正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.zerohedge",
+      "name": "Zero Hedge",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "Zero Hedge 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "economist",
+      "name": "经济学人",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "The Economist 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.cnbc",
+      "name": "CNBC",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "CNBC 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.vox",
+      "name": "Vox",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "Vox 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.theatlantic",
+      "name": "大西洋月刊",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "The Atlantic 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "time",
+      "name": "时代周刊",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "Time 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "article.scientificamerican",
+      "name": "科学美国人",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "Scientific American 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "latimes",
+      "name": "洛杉矶时报",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "LA Times 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.abcnews",
+      "name": "ABC News",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "ABC News 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.nieman.harvard",
+      "name": "尼曼新闻实验室",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "Nieman Harvard 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cjr",
+      "name": "哥伦比亚新闻评论",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "CJR 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.cnet",
+      "name": "CNET",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "CNET 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "gizmodo",
+      "name": "Gizmodo",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "Gizmodo 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "article.newscientist",
+      "name": "新科学家",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "New Scientist 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "dailydot",
+      "name": "Daily Dot",
+      "category": "news",
+      "author": "Pure Read Team",
+      "description": "Daily Dot 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "io.sspai",
+      "name": "少数派 iOS",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "少数派 iOS 端文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "m.dgtle",
+      "name": "数字尾巴移动版",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "数字尾巴移动版文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "geekpark",
+      "name": "极客公园",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "极客公园文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.geekpark",
+      "name": "极客公园新闻",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "极客公园新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "article.guokr",
+      "name": "果壳文章",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "果壳网文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "guokrapp.guokr",
+      "name": "果壳 App",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "果壳 App 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "zuimeia",
+      "name": "最美应用",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "最美应用文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "author"
+      ]
+    },
+    {
+      "host": "leiphone",
+      "name": "雷锋网",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "雷锋网文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "tmtpost",
+      "name": "钛媒体",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "钛媒体 tmtpost 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "ruanyifeng",
+      "name": "阮一峰博客",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "阮一峰博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "v2ex",
+      "name": "V2EX",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "V2EX 主题正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "freebuf",
+      "name": "FreeBuf",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "FreeBuf 安全文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "coolshell",
+      "name": "酷壳",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "酷壳 CoolShell 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "prime.sspai",
+      "name": "少数派 Prime 故事",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "少数派 Prime 故事正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "post.guokr",
+      "name": "果壳 post",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "果壳网 post 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "cn.technode",
+      "name": "Technode 动点科技",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Technode 动点科技中文站正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "leikeji",
+      "name": "雷科技",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "雷科技文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "minapp",
+      "name": "知晓程序 minapp",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "知晓程序 minapp 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "article.pmcaff",
+      "name": "PMCAFF 文章",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "PMCAFF 产品社区文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "answer.pmcaff",
+      "name": "PMCAFF 讨论",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "PMCAFF 讨论区正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "dxy",
+      "name": "丁香园",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "丁香园 dxy.cn 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "faq.dxy",
+      "name": "丁香园 FAQ",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "丁香园 dxy.com FAQ 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "column.dxy",
+      "name": "丁香园专栏",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "丁香园 dxy.com 专栏正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "free.apprcn",
+      "name": "免费 AppRcn",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "免费 AppRcn 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "apprcn",
+      "name": "AppRcn",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "AppRcn 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "playpcesor",
+      "name": "电脑玩物",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "电脑玩物正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "azofreeware",
+      "name": "AzoFreeware",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "AzoFreeware 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "yixieshi",
+      "name": "互联网的一些事",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "互联网的一些事正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "iplaysoft",
+      "name": "异次元软件世界",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "异次元软件世界正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "blog.jobbole",
+      "name": "伯乐在线博客",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "伯乐在线博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cnodejs",
+      "name": "CNode 社区",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "CNode 中文 Node 社区正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "w3cplus",
+      "name": "W3Cplus",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "W3Cplus 前端博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "div.io",
+      "name": "DIV.IO",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "DIV.IO 前端社区正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "importnew",
+      "name": "ImportNew",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "ImportNew Java 技术正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "solidot",
+      "name": "Solidot",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Solidot 奇客网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "ifeve",
+      "name": "并发编程网",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "并发编程网 ifeve 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "translate.oschina",
+      "name": "开源中国翻译",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "开源中国翻译正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "my.oschina",
+      "name": "开源中国博客",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "开源中国 my.oschina 博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "oschina",
+      "name": "开源中国资讯",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "开源中国资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.iteye",
+      "name": "ITeye 资讯",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "ITeye 资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "blog.iteye",
+      "name": "ITeye 博客",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "ITeye 博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "geek.csdn",
+      "name": "CSDN 极客",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "CSDN 极客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "lib.csdn",
+      "name": "CSDN 文库",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "CSDN 文库正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "hacpai",
+      "name": "黑客派",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "黑客派正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "news.cnblogs",
+      "name": "博客园资讯",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "博客园资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "tuicool",
+      "name": "推酷",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "推酷正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "open-open",
+      "name": "OpenOpen",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "OpenOpen 开源中国正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "colobu",
+      "name": "Colobu",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Colobu 博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "daqianduan",
+      "name": "大前端",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "大前端正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "caibaojian",
+      "name": "前端开发",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "前端开发 caibaojian 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "ctolib",
+      "name": "CTOLib",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "CTOLib 开源库正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "zuojj",
+      "name": "左江博客",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "左江 zuojj 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "linuxsight",
+      "name": "Linux 视野",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Linux 视野正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cocoachina",
+      "name": "CocoaChina",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "CocoaChina 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "dataunion",
+      "name": "数据联盟",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "数据联盟正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "linux.cn",
+      "name": "Linux 中国",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Linux 中国正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "techug",
+      "name": "程序师",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "程序师 techug 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "article.52im",
+      "name": "52IM 文章",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "52IM 即时通讯网文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "edaoe",
+      "name": "E 大 OE",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "E 大 OE edaoe 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "wiki.jikexueyuan",
+      "name": "极客学院 Wiki",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "极客学院 Wiki 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "uisdc",
+      "name": "优设网",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "优设网 UISDC 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "hacknews.codedata",
+      "name": "CodeData 黑客新闻",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "CodeData hacknews 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "teakki",
+      "name": "Teakki",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Teakki 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "voidcn",
+      "name": "VoidCN",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "VoidCN 博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "m.ithome",
+      "name": "IT之家移动版",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "IT之家移动版正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "9to5google",
+      "name": "9to5Google",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "9to5Google 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "engadget",
+      "name": "Engadget",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Engadget 英文站正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "readwrite",
+      "name": "ReadWrite",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "ReadWrite 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "article.techrepublic",
+      "name": "TechRepublic 文章",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "TechRepublic 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "blog.techrepublic",
+      "name": "TechRepublic 博客",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "TechRepublic 博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "technologyreview",
+      "name": "MIT 技术评论",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "MIT Technology Review 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "article.macworld",
+      "name": "Macworld",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Macworld 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "aliresearch",
+      "name": "阿里研究院",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "阿里研究院正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "tech2ipo",
+      "name": "动点科技 Tech2IPO",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Tech2IPO 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "cn.engadget",
+      "name": "Engadget 中国",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Engadget 中国正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "mi.techweb",
+      "name": "TechWeb 小米",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "TechWeb 小米正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "techweb",
+      "name": "TechWeb",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "TechWeb 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "wiki.8btc",
+      "name": "8btc 百科",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "8btc 百科正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "mifengtd",
+      "name": "迷途的羔羊",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "迷途的羔羊正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "csdn",
+      "name": "CSDN",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "CSDN博客正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 380,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cnblogs",
+      "name": "博客园",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "博客园正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 290,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "jianshu",
+      "name": "简书",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "简书正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 220,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "juejin",
+      "name": "掘金",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "掘金社区正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 340,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "segmentfault",
+      "name": "思否",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "SegmentFault思否正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 160,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "zhuanlan.zhihu",
+      "name": "知乎专栏",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "知乎专栏正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 410,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "zhihu",
+      "name": "知乎问答",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "知乎问答内容提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 350,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "dev.to",
+      "name": "Dev.to",
+      "category": "tech",
+      "author": "Pure Read Team",
+      "description": "Dev.to技术社区正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 95,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "waerfa",
+      "name": "数字生活家 Waerfa",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Waerfa 数字生活家正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "songshuhui",
+      "name": "科学松鼠会",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "科学松鼠会文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "nationalgeographic.cn",
+      "name": "国家地理中文网",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "国家地理中文网正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "dudu.zhihu",
+      "name": "知乎读书",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "知乎读书（dudu）正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "chuansong",
+      "name": "传送门",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "传送门公众号文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "xueqiu",
+      "name": "雪球",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "雪球文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "moment.douban",
+      "name": "豆瓣一刻",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "豆瓣一刻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "qingmang",
+      "name": "青芒杂志",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "青芒杂志正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "m.douban",
+      "name": "豆瓣移动版",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "豆瓣移动版正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "book.douban",
+      "name": "豆瓣读书书评",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "豆瓣读书书评正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "creative.adquan",
+      "name": "广告门创意",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "广告门创意正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "i.mafengwo",
+      "name": "马蜂窝游记",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "马蜂窝游记正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "bohaishibei",
+      "name": "北海时报",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "北海时报正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "williamlong",
+      "name": "月光博客",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "月光博客 williamlong 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "readhub",
+      "name": "ReadHub",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "ReadHub 科技新闻正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "livesino",
+      "name": "LiveSino",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "LiveSino 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "reader.s-reader",
+      "name": "S-Reader",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "S-Reader 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "vgtime",
+      "name": "VG 时光",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "VG 时光正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "ncbi.nlm.nih",
+      "name": "NCBI PMC",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "NCBI PMC 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "cell",
+      "name": "Cell",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Cell 期刊正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "pnas",
+      "name": "PNAS",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "美国科学院院刊正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "science.sciencemag",
+      "name": "Science",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Science 期刊正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "nature",
+      "name": "Nature",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Nature 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "hedwig.pub",
+      "name": "Hedwig",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Hedwig 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "zhiy",
+      "name": "知园",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "知园 zhiy 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "zhubai.love",
+      "name": "竹白",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "竹白 zhubai.love 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "vip.qikan",
+      "name": "期刊 VIP",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "期刊 VIP 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "baijiahao.baidu",
+      "name": "百家号",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "百家号正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "mbd.baidu",
+      "name": "百度资讯",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "百度资讯落地页正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "jingyan.baidu",
+      "name": "百度经验",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "百度经验正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "g-cores",
+      "name": "机核",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "机核文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "article.chiphell",
+      "name": "ChipHell 文章",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "ChipHell 文章正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "worldcup.fifa",
+      "name": "FIFA 世界杯",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "FIFA 世界杯资讯正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "steachs",
+      "name": "Steachs",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Steachs 博客正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "107cine",
+      "name": "影视工业网",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "影视工业网 107cine 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "post.adquan",
+      "name": "广告门文章",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "广告门 post 正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "gonglve.mafengwo",
+      "name": "马蜂窝攻略",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "马蜂窝自由行攻略正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "bilibili",
+      "name": "哔哩哔哩专栏",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "哔哩哔哩专栏正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "jiemi.baike",
+      "name": "解密百科",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "解密百科正文提取规则（参考 SimpRead）",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-11",
+      "downloads": 0,
+      "selectors": [
+        "title",
+        "content"
+      ]
+    },
+    {
+      "host": "medium",
+      "name": "Medium",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Medium文章正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 310,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "substack",
+      "name": "Substack",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Substack订阅通讯正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 140,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "wordpress",
+      "name": "WordPress",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "WordPress默认主题正文提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 280,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    },
+    {
+      "host": "news.ycombinator",
+      "name": "Hacker News",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "Hacker News内容提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 180,
+      "selectors": [
+        "title",
+        "content",
+        "exclude"
+      ]
+    },
+    {
+      "host": "github",
+      "name": "GitHub",
+      "category": "general",
+      "author": "Pure Read Team",
+      "description": "GitHub README/Issues内容提取规则",
+      "version": "1.0.0",
+      "updatedAt": "2026-02-01",
+      "downloads": 420,
+      "selectors": [
+        "title",
+        "content",
+        "author",
+        "exclude"
+      ]
+    }
+  ]
+}

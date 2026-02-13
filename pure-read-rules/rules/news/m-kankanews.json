@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "看看新闻移动版",
+    "description": "看看新闻移动版正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "m.kankanews",
+    "pathPattern": "/n/",
+    "titleSelector": "title",
+    "contentSelector": "div.content",
+    "excludeSelectors": [
+      "p.download"
+    ]
+  }
+}

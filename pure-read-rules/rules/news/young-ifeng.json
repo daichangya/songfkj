@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "凤凰青年",
+    "description": "凤凰青年正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "young.ifeng",
+    "pathPattern": "/",
+    "titleSelector": "h1",
+    "contentSelector": "div.ya_main_con",
+    "excludeSelectors": [
+      "p.yamc_zrbj",
+      "p.yamc_sming",
+      "span.ifengLogo"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "马蜂窝游记",
+    "description": "马蜂窝 i.mafengwo 游记正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "i.mafengwo",
+    "pathPattern": "/i/",
+    "titleSelector": "title",
+    "contentSelector": "div.vc_article",
+    "excludeSelectors": [
+      "a._j_anchor",
+      "div#_j_paragraph_1"
+    ]
+  }
+}

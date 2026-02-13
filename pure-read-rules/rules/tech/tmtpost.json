@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "name": "钛媒体",
+    "description": "钛媒体 tmtpost 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "tmtpost",
+    "pathPattern": "/",
+    "titleSelector": "h2.tit",
+    "contentSelector": "article",
+    "authorSelector": "div.abstract",
+    "excludeSelectors": [
+      "h1",
+      "div.post-info",
+      "p.post-abstract",
+      "div.pro_icon",
+      "div.pro_intro.tc"
+    ]
+  }
+}

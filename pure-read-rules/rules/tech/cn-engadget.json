@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Engadget 中国",
+    "description": "Engadget 中国正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "cn.engadget",
+    "pathPattern": "/",
+    "titleSelector": "title",
+    "contentSelector": "div.article-text"
+  }
+}

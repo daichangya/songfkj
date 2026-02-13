@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Linux 视野",
+    "description": "Linux 视野 linuxsight 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "linuxsight",
+    "pathPattern": "/blog/",
+    "titleSelector": "h1.entry-title",
+    "contentSelector": "div.single-content",
+    "excludeSelectors": [
+      "div.ad-site"
+    ]
+  }
+}

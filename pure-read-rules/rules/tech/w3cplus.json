@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "W3Cplus",
+    "description": "W3Cplus 前端博客正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "w3cplus",
+    "pathPattern": "/",
+    "titleSelector": "h1#page-title",
+    "contentSelector": "div.body-content"
+  }
+}

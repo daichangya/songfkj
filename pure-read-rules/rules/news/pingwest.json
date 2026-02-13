@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "品玩",
+    "description": "品玩文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "pingwest",
+    "pathPattern": "/a/",
+    "titleSelector": "title",
+    "contentSelector": "article.article-style",
+    "excludeSelectors": [
+      "p.post-footer-wx"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Daily Dot",
+    "description": "Daily Dot 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "dailydot",
+    "pathPattern": "/",
+    "titleSelector": "h1.dd-article-headline",
+    "contentSelector": "div.dd-content-body-inner",
+    "excludeSelectors": [
+      "div.moviereview"
+    ]
+  }
+}

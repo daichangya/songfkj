@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "name": "网易新闻",
+    "description": "网易新闻正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "163",
+    "titleSelector": "h1.post_title, h1.title, .post_main h1",
+    "contentSelector": "#endText, .post_body, .post_text, #content",
+    "authorSelector": ".ep-source, .post_info a",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".ep-recommend",
+      ".comment-board",
+      ".nph_ad",
+      "#endPageCB498"
+    ]
+  }
+}

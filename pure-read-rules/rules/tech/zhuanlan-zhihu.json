@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "知乎专栏",
+    "description": "知乎专栏正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "zhuanlan.zhihu",
+    "titleSelector": "h1.Post-Title",
+    "contentSelector": ".Post-RichTextContainer, .RichContent-inner",
+    "authorSelector": ".AuthorInfo .AuthorInfo-name a",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".RichContent-actions",
+      ".Post-topicsAndReviewer"
+    ]
+  }
+}

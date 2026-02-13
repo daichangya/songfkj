@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "TechWeb 移动",
+    "description": "TechWeb 移动 mi.techweb 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "mi.techweb",
+    "pathPattern": "/tmt/",
+    "titleSelector": "h1",
+    "contentSelector": "div#content"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "PMCAFF 文章",
+    "description": "PMCAFF 产品社区文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "article.pmcaff",
+    "pathPattern": "/article/index/",
+    "titleSelector": "title",
+    "contentSelector": "div#editorContent"
+  }
+}

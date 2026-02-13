@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "品玩快讯",
+    "description": "品玩 wire 快讯正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "wire.pingwest",
+    "pathPattern": "/wire/",
+    "titleSelector": "h1.title",
+    "contentSelector": "div#sc-container",
+    "excludeSelectors": [
+      "p.post-footer-wx"
+    ]
+  }
+}

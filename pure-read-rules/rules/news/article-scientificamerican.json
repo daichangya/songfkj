@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "科学美国人",
+    "description": "Scientific American 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "article.scientificamerican",
+    "pathPattern": "/article/",
+    "titleSelector": "h1.article-header__title",
+    "contentSelector": "div.article-block",
+    "excludeSelectors": [
+      "figure.newsletter-promo"
+    ]
+  }
+}

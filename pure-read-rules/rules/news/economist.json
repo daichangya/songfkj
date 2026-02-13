@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "经济学人",
+    "description": "The Economist 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "economist",
+    "pathPattern": "/",
+    "titleSelector": "title",
+    "contentSelector": "div.blog-post__text",
+    "excludeSelectors": [
+      "div.newsletter-form--inline"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "互联网的一些事",
+    "description": "互联网的一些事 yixieshi 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "yixieshi",
+    "pathPattern": "/",
+    "titleSelector": "h1.post-title",
+    "contentSelector": "article.article-content"
+  }
+}

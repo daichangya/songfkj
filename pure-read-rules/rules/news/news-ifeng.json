@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "凤凰新闻",
+    "description": "凤凰新闻正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "news.ifeng",
+    "pathPattern": "/",
+    "titleSelector": "h1#artical_topic",
+    "contentSelector": "div#artical_real",
+    "excludeSelectors": [
+      "span.ifengLogo"
+    ]
+  }
+}

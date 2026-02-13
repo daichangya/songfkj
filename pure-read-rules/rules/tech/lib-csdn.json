@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "CSDN 文库",
+    "description": "CSDN 文库 lib.csdn 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "lib.csdn",
+    "pathPattern": "/article/",
+    "titleSelector": "h1",
+    "contentSelector": "div.divtexts"
+  }
+}

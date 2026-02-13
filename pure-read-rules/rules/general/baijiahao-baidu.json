@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "百家号",
+    "description": "百家号正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "baijiahao.baidu",
+    "pathPattern": "/s",
+    "titleSelector": "title",
+    "contentSelector": "div._18p7x"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "腾讯大家",
+    "description": "腾讯大家 view.inews.qq 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "view.inews.qq",
+    "pathPattern": "/a/",
+    "titleSelector": "p.title",
+    "contentSelector": "div#content",
+    "excludeSelectors": [
+      "p.title",
+      "div.src"
+    ]
+  }
+}

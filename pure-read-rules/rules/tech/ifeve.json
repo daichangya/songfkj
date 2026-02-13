@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "并发编程网",
+    "description": "并发编程网 ifeve 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "ifeve",
+    "pathPattern": "/",
+    "titleSelector": "h3.title",
+    "contentSelector": "div.post_content",
+    "excludeSelectors": [
+      "div#jiathis_style_32x32",
+      "div.abh_box",
+      "span.wpfp-span",
+      "div.yarpp-related"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Linux 中国",
+    "description": "Linux 中国正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "linux.cn",
+    "pathPattern": "/article-",
+    "titleSelector": "h1#article_title",
+    "contentSelector": "div#article_content"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "好奇心日报移动版",
+    "description": "好奇心日报移动版文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "m.qdaily",
+    "pathPattern": "/mobile/articles/",
+    "titleSelector": "title",
+    "contentSelector": "div.detail",
+    "excludeSelectors": [
+      "div.author-share",
+      "div.icon-pics",
+      "div.embed-control"
+    ]
+  }
+}

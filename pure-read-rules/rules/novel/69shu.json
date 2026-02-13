@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "69书吧",
+    "description": "69书吧系列（69shuba/69shux等）正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "69shu",
+    "titleSelector": ".txtnav h1",
+    "contentSelector": ".txtnav",
+    "excludeSelectors": [
+      ".txtinfo",
+      ".hide720",
+      "h1",
+      "script",
+      "style",
+      ".yueduad"
+    ],
+    "nextSelector": "div.page1 > a:last-child",
+    "prevSelector": "div.page1 > a:first-child",
+    "tocSelector": "div.page1 > a:nth-child(2)"
+  }
+}

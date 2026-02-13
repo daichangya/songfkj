@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "掘金",
+    "description": "掘金社区正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "juejin",
+    "titleSelector": "h1.article-title",
+    "contentSelector": ".article-content, .markdown-body",
+    "authorSelector": ".username .name a",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".recommended-area",
+      ".comment-box",
+      ".article-suspended-panel"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "name": "笔趣阁",
+    "description": "笔趣阁系列（biquge/xbiquge等）正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "novel",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "biquge",
+    "titleSelector": ".bookname h1, .content_read h1",
+    "contentSelector": "#content, #chaptercontent, .chapter_content",
+    "excludeSelectors": [
+      ".readinline",
+      ".bottem",
+      "script",
+      "style"
+    ],
+    "nextSelector": "#A3, .bottem1 a:last-child, .next_url",
+    "prevSelector": "#A1, .bottem1 a:first-child, .prev_url",
+    "tocSelector": "#A2, .bottem1 a:nth-child(2)"
+  }
+}

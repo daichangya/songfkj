@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "GitHub",
+    "description": "GitHub README/Issues内容提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "github",
+    "titleSelector": ".gh-header-title .js-issue-title, #readme h1, .markdown-title",
+    "contentSelector": ".markdown-body, .comment-body",
+    "authorSelector": ".author",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".discussion-timeline-actions"
+    ]
+  }
+}

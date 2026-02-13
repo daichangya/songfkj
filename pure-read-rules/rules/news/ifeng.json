@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "凤凰网",
+    "description": "凤凰网新闻正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "news",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "ifeng",
+    "titleSelector": "h1",
+    "contentSelector": "#main_content, .main_content_area .text",
+    "authorSelector": ".source",
+    "excludeSelectors": [
+      "script",
+      "style",
+      "#artical_s498",
+      ".ad-wrapper",
+      ".p_bottom"
+    ]
+  }
+}

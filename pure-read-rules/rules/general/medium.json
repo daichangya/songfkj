@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Medium",
+    "description": "Medium文章正文提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "medium",
+    "titleSelector": "h1",
+    "contentSelector": "article section, article .section-content",
+    "authorSelector": "[data-testid=\"authorName\"], .pw-author-name",
+    "excludeSelectors": [
+      "script",
+      "style",
+      ".metabar",
+      ".js-postMetaLockup",
+      "[role=\"dialog\"]"
+    ]
+  }
+}

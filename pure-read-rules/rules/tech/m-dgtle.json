@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "数字尾巴移动版",
+    "description": "数字尾巴移动版文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "m.dgtle",
+    "pathPattern": "/portal",
+    "titleSelector": "h1.cr_h1title",
+    "contentSelector": "div#view_content"
+  }
+}

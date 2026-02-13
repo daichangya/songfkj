@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "左江博客",
+    "description": "左江 zuojj 正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "zuojj",
+    "pathPattern": "/archives/",
+    "titleSelector": "h1.article-title",
+    "contentSelector": "article.article-content",
+    "excludeSelectors": [
+      "div.copyright_con",
+      "div.article-social"
+    ]
+  }
+}

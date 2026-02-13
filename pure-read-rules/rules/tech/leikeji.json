@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "雷科技",
+    "description": "雷科技文章正文提取规则（参考 SimpRead）",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "tech",
+    "updatedAt": "2026-02-11"
+  },
+  "rule": {
+    "host": "leikeji",
+    "pathPattern": "/article/",
+    "titleSelector": "h1.article-title",
+    "contentSelector": "div.article-body",
+    "excludeSelectors": [
+      "div.signature-qr",
+      "ul.tag-list"
+    ]
+  }
+}

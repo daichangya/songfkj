@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Hacker News",
+    "description": "Hacker News内容提取规则",
+    "author": "Pure Read Team",
+    "version": "1.0.0",
+    "category": "general",
+    "updatedAt": "2026-02-01"
+  },
+  "rule": {
+    "host": "news.ycombinator",
+    "titleSelector": ".titleline a",
+    "contentSelector": ".comment-tree, .fatitem .commtext",
+    "excludeSelectors": [
+      "script",
+      "style"
+    ]
+  }
+}
