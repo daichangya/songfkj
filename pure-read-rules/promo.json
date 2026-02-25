@@ -1,13 +1,13 @@
 {
-  "version": 1,
-  "updatedAt": "2025-02-13T00:00:00Z",
-  "items": [
-    {
-      "id": "e2e-promo",
-      "title": "E2E 推广测试",
-      "desc": "用于自动化测试的推广内容",
-      "url": "https://example.com/promo",
-      "cta": "了解更多"
-    }
-  ]
+  // "version": 1,
+  // "updatedAt": "2025-02-13T00:00:00Z",
+  // "items": [
+  //   {
+  //     "id": "e2e-promo",
+  //     "title": "E2E 推广测试",
+  //     "desc": "用于自动化测试的推广内容",
+  //     "url": "https://example.com/promo",
+  //     "cta": "了解更多"
+  //   }
+  // ]
 }
